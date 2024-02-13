@@ -35,6 +35,7 @@ import Animated, {
 } from 'react-native-reanimated';
 import Card from './src/components/Card';
 import ZomatoInput from './src/components/ZomatoInput';
+import SkiaPage from './src/components/SkiaPage';
 
 const data = [
   {
@@ -142,9 +143,7 @@ function App(): React.JSX.Element {
       <Button onPress={handlePress} title="Click me" /> */}
       {/* <CardList /> */}
       <View className="bg-neutral-300">
-        <ZomatoInput />
-        <ZomatoInput />
-        <ZomatoInput />
+        <SkiaPage />
       </View>
     </SafeAreaView>
   );
